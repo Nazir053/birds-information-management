@@ -1,0 +1,105 @@
+*{
+    background-color: rgb(255, 255, 255);
+}
+
+.head_container{
+    width: 100%;
+}
+.head_container h2{
+    font-size: 46px;
+    text-align: center;
+}
+.header_action{
+    margin: 0px 5%;
+    display: flex;
+    justify-content: space-between;
+}
+#add_record{
+    background-color: rgb(40, 45, 55);
+    color: white;
+    border-radius: 20px;
+    font-size: 32px;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+
+.search_container{
+    height: 100%;
+    background-color: rgb(219, 184, 184);
+    display: inline;
+    border-radius: 20px;
+   
+}
+#search_text{
+    border-radius: 20px;
+    font-size: 32px;
+    padding: 10px 40px;
+    line-height: 40px;
+}
+#search_icon{
+    font-size: 32px;
+    background-color: rgb(219, 184, 184);
+}
+
+table{
+    margin-top: 10px;
+    background-color: #ff0000;
+    width: 100%;
+    
+}
+td{
+    background: linear-gradient(0deg, rgba(210,248,250,1) 0%, rgba(255,255,255,0.5917717428768383) 40%, rgba(251,254,255,1) 60%, rgba(210,248,250,1) 100%);
+}
+th,td, thead{
+    border-radius: 10px;
+    text-align: center;
+    font-size: 22px;
+    height: 60px;
+}
+.edit_button, .delete_button{
+    background: linear-gradient(0deg, rgba(164,242,246,1) 0%, rgba(229,245,246,1) 40%, rgba(229,245,246,1) 60%, rgba(164,242,246,1) 100%);
+    border-radius: 8px;
+    padding: 2px 5px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.form_container{
+    
+    text-align: center;
+}
+form{ 
+    background-color: rgb(134, 254, 87);
+    width: 600px;
+    padding: 8px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.input_fild {
+   
+    font-size: 34px;
+    padding: 1% 5%;
+
+}
+
+.input_fild > label{
+    display: block;
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: left;
+
+}
+.input_fild > input{
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+
+}
+textarea{
+    width: 100%;
+    height: 90px;
+    
+}
+
